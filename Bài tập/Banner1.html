@@ -10,6 +10,9 @@
         #container{
             display: flex;
             justify-content: space-around;
+            align-items: center;
+            width: 1530px;
+            height: 70px;
         }
         #Left{
             display: flex;
@@ -27,15 +30,18 @@
         }
         #Banner{
             display: flex;
-            flex-direction: column;
             justify-content: space-around;
+            align-items: center;
             width: 100%;
         }
 
         #container-1{
             display: flex;
             justify-content: space-around;
+            align-items: center;
             font-family: Arial, Helvetica, sans-serif;
+            width:  1530px ;
+            height: 163px;
 
         }
 
@@ -66,6 +72,7 @@
             justify-content: space-around;     
             font-family: Arial, Helvetica, sans-serif;
             align-items: flex-start;
+            height: 539px;
            
         }
 
@@ -73,34 +80,57 @@
             display: flex;
             justify-content: space-around;
             font-family: Arial, Helvetica, sans-serif;
-
+            height: 539px;
         }
 
         #container-4{
             display: flex;
             justify-content: space-around;
             font-family: Arial, Helvetica, sans-serif;
-            
+            height: 539px;
         }
         #container-5{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 25%;
+            width: 1530px;
+            height: 230px;
             font-family: Arial, Helvetica, sans-serif;
+
             
-           
+        }
+        
+
+        .grid-container5{
+            display: grid;
+            grid-template-columns: 20px 20px 20px 20px 20px 20px;
+            gap: 10px;
+            padding: 10px;
+
+        }
+
+        .grid-container > div {
+        text-align: center;
+        padding: 10px 0;
+        font-size: 20px;
         }
 
         #container-6{
             display: flex;
             justify-content: space-around;
-            align-items: flex-start;
+            align-items: center;
             background-color: #18122B;
             font-family: Arial, Helvetica, sans-serif;
+            height: 436px;
             
         }
-        
+
+        #h1{
+            display: flex;
+            justify-content: flex-end;
+        }
+
+       
     </style>
 </head>
 <body>
@@ -125,7 +155,10 @@
     </div>
 
     <div id="Banner">
-          <div><img src="banner.png" alt=""></div>
+          <div>
+            <img src="banner.png" alt="" >    
+          </div>
+          
           
     </div>
 
@@ -151,8 +184,10 @@
             <p>
                 <h3>Product title</h3>
                 <p>Labore sint ipsum dolore mollit</p>
-                <img src="Button 1 (2).png" alt="">
             </p>
+            <div id="h1">
+                <img src="Button 1 (2).png" alt="">
+            </div>
             
         </div>
         <div>
@@ -160,27 +195,35 @@
             <p>
                 <h3>Product title</h3>
                 <p>Labore sint ipsum dolore mollit</p>
+            <div id="h1">
                 <img src="Button 1 (2).png" alt="">
-    
-            </p>
+            </div>
         </div>
         <div>
             <img src="Image 1 (3).png" alt="">
             <p>
                 <h3>Product title</h3>
                 <p>Labore sint ipsum dolore mollit</p>
-                <img src="Button 1 (2).png" alt="">
-    
+                
             </p>
+            <div id="h1">
+                <img src="Button 1 (2).png" alt="">
+            </div>
+
         </div>
         <div>
             <img src="Image 1 (4).png" alt="">
             <p>
                 <h3>Product title</h3>
                 <p>Labore sint ipsum dolore mollit</p>
-                <img src="Button 1 (2).png" alt="">
+                
     
             </p>
+            <div id="h1">
+                <img src="Button 1 (2).png" alt="">
+            </div>
+
+
         </div>
     </div>
 
@@ -190,36 +233,48 @@
             <p>
                 <h3>Product title</h3>
                 <p>Labore sint ipsum dolore mollit</p>
-                <img src="Button 1 (2).png" alt="">
+                
     
             </p>
+            <div id="h1">
+                <img src="Button 1 (2).png" alt="">
+            </div>
         </div>
         <div>
             <img src="Image 1 (6).png" alt="">
             <p>
                 <h3>Product title</h3>
                 <p>Labore sint ipsum dolore mollit</p>
-                <img src="Button 1 (2).png" alt="">
+                
     
             </p>
+            <div id="h1">
+                <img src="Button 1 (2).png" alt="">
+            </div>
         </div>
         <div>
             <img src="Image 1 (7).png" alt="">
             <p>
                 <h3>Product title</h3>
                 <p>Labore sint ipsum dolore mollit</p>
-                <img src="Button 1 (2).png" alt="">
+                
     
             </p>
+            <div id="h1">
+                <img src="Button 1 (2).png" alt="">
+            </div>
         </div>
         <div>
             <img src="Image 1 (8).png" alt="">
             <p>
                 <h3>Product title</h3>
                 <p>Labore sint ipsum dolore mollit</p>
-                <img src="Button 1 (2).png" alt="">
+                
     
             </p>
+            <div id="h1">
+                <img src="Button 1 (2).png" alt="">
+            </div>
         </div>
     </div>
     
@@ -230,48 +285,60 @@
                 <p>
                     <h3>Product title</h3>
                     <p>Labore sint ipsum dolore mollit</p>
-                    <img src="Button 1 (2).png" alt="">
+                    
         
                 </p>
+                <div id="h1">
+                    <img src="Button 1 (2).png" alt="">
+                </div>
             </div>
             <div>
                 <img src="Image 1 (10).png" alt="">
                 <p>
                     <h3>Product title</h3>
                     <p>Labore sint ipsum dolore mollit</p>
-                    <img src="Button 1 (2).png" alt="">
+                    
         
                 </p>
+                <div id="h1">
+                    <img src="Button 1 (2).png" alt="">
+                </div>
             </div>
             <div>
                 <img src="Image 1 (11).png" alt="">
                 <p>
                     <h3>Product title</h3>
                     <p>Labore sint ipsum dolore mollit</p>
-                    <img src="Button 1 (2).png" alt="">
+                    
         
                 </p>
+                <div id="h1">
+                    <img src="Button 1 (2).png" alt="">
+                </div>
             </div>
             <div>
                 <img src="Image 1 (12).png" alt="">
                 <p>
                     <h3>Product title</h3>
                     <p>Labore sint ipsum dolore mollit</p>
-                    <img src="Button 1 (2).png" alt="">
+                    
         
                 </p>
+                <div id="h1">
+                    <img src="Button 1 (2).png" alt="">
+                </div>
             </div>
         </div>
 
 
         <div id="container-5">
-            <div>
+            <div >
                 <img src="Button 1 (5).png" alt="">
-            </div>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
+            </div class="grid-container5" >
+            <div >1</div>
+            <div >2</div>
+            <div >3</div>
+            <div >4</div>
             <div>
                 <img src="Button 1 (6).png" alt="">
             </div>
