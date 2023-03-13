@@ -11,7 +11,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
-            width: 1530px;
+            width: 100%;
             height: 70px;
         }
         #Left{
@@ -23,17 +23,25 @@
             color:grey;
             
         }
+        #logo{
+            display: flex;
+            justify-content: center;
+            width: 90%;
+        }
         #Right{
             display: flex;
             justify-content: center;
             align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: darkgray;
+            
             
         }
         #Banner{
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
-            width: 100%;
+            width: 1446px;
             position: relative;
             display: inline-block;
             font-family: Arial, Helvetica, sans-serif;
@@ -52,7 +60,7 @@
             justify-content: space-around;
             align-items: center;
             font-family: Arial, Helvetica, sans-serif;
-            width:  1530px ;
+            width:  1446px ;
             height: 163px;
 
         }
@@ -60,24 +68,21 @@
         #Left1{
             display: flex;
             justify-content: space-around;
-            width: 25%;
+            align-items: center;
+            width: 40%;
             color:green;
+
             
         }
 
-        #Product{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            background-color: forestgreen;
-            width: 100px;
-            height: 30px
-        }
 
         #Right1{
             display: flex;
-            justify-content: center;
+            justify-content: end;
+            align-items: center;
+            justify-content: space-around;
+            width: 32%;
+            
         }
 
         #container-2{
@@ -129,11 +134,12 @@
         #container-6{
             display: flex;
             justify-content: space-around;
-            align-items: center;
+            align-content: center;
             background-color: #1D2128;
             font-family: Arial, Helvetica, sans-serif;
-            width: 1535px;
+            width: 1446x;
             height: 436px;
+            padding-top: 10%;
             
         }
         
@@ -164,8 +170,85 @@
             width: 50px;
             
         }
-       
-       
+        .Product{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 4px 4px 4px 4px;
+            width: 200px;
+            height: 50px;
+            background-color: #459D7A;
+            color: white;
+        }
+        .Sort{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 4px 4px 4px 4px;
+            width: 100px;
+            height: 50px;
+            background-color: #F3F4F6;
+            color: darkgray;
+            
+            
+        }
+        .Input_Button{
+            display: flex;
+            justify-content: space-around;
+            align-items:center ;
+
+        }
+        .Input{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 303px;
+            height: 52px;
+            border-style: solid;
+            border-radius: 8px 0 0 8px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .Button{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #459D7A;
+            width: 130px;
+            height: 55px;
+            border-radius: 0 8px 8px 0;
+            border: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+
+        }
+        .Search{
+            width: 200px;
+            height: 30px;
+            border-radius: 4px 4px 4px 4px;
+            border-style: solid;
+            border-color: darkgray;
+        }
+        .English{
+            border-radius: 4px 4px 4px 4px;
+            border-style: solid;
+            border-color: white;
+            color: white;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 130px;
+            height: 30px;
+            background-color: #1D2128FF;
+        }
+        .Product_shadow{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            box-shadow:none 10px #888888;
+            width: 150px;
+            height: 50px;
+            
+        }
+        
     </style>
 </head>
 <body>
@@ -183,7 +266,7 @@
         </div>
 
         <div id="Right">
-            <input type="text" name="seach" placeholder="Seach Product..." size="20" maxlength="40">
+            <input type="text" name="seach" placeholder=" Seach Product..." size="20" maxlength="40" class="Search">
             <img src="Button 1 (1).png" alt="">
             <img src="Button 1.png" alt="">
         </div>
@@ -202,15 +285,20 @@
 
     <div id="container-1">
         <div id="Left1">
-            <div id="Product">All Product</div>
+            <div class="Product">All Products</div>
             <div>Face</div>
             <span>|</span>
             <div>Body</div>
         </div>
 
         <div id="Right1">
-            <div> Sort By </div>
-
+            <div class="Product_shadow">
+                <input type="text" name="seach" placeholder=" Seach Product..." size="20" maxlength="40" class="Search">
+            </div>
+            
+            <div class="Sort"> 
+                Sort By &#8801;
+            </div>
         </div>
 
     </div>
@@ -458,26 +546,26 @@
         </div>
 
         <div id="container-6">
-            <div>
+            <div id="column1">
                 <h2><p style="color:white">About</p></h2>
                 <p style="color:white">Home</p>
                 <p style="color:white">Shop</p>
                 <p style="color:white">Our Story</p>
                 <p style="color:white">Blog</p>
-                <select name="English" id="english">
+                <select name="English" class="English" >
                     <option value="English">English</option>
                 </select>
                 
             </div>
 
-            <div>
+            <div id="column2">
                 <h2><p style="color:white">Help</p></h2>
                 <p style="color:white">Shopping & Return</p>
                 <p style="color:white">Track Order</p>
                 <p style="color:white">FAQs</p>
             </div>
             
-            <div>
+            <div id="column3">
                 <h2><p style="color:white">Contact</p></h2>
                 <p style="color:white">Phone:</p>
                 <p style="color:white">(+1)1234567893</p>
@@ -485,16 +573,26 @@
                 <p style="color:white">name@email.com</p>
 
             </div>
-            <div>
+            <div id="column4">
                 <h2><p style="color:white">Receive new promotions</p></h2>
                 <p style="color:white">Duis ea tempor commodo amet reprehende</p>
+                <div class="Input_Button">
+                    <input type="text" placeholder="&#9993 Input your email" style="font-size: 15px;" class="Input">
+                    <input type="submit" value="Subsrice" class="Button">
+
+                </div><br>
+
                 <div>
                     <img src="Twitter 1.png" alt="">
                     <img src="Facebook 1.png" alt="">
                     <img src="LinkedIn 1.png" alt="">
                     <img src="YouTube 1.png" alt="">
+                </div><br>
+                
+                <div >
+                    <p style="color: white;"> &#169; 2022 Brand,Inc. &#8226; Privacy &#8226; Terms &#8226; Sitemap</p>
+
                 </div>
-    
 
             </div>
 
