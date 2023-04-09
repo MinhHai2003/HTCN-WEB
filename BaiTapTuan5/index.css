@@ -1,0 +1,145 @@
+#container-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1530px;
+    height: 50px;
+}
+#container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background-color: aquamarine;
+
+}
+#container-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    right: 120px;
+    width: 100%;
+   
+}
+
+#Left_Top{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+}
+
+#Right_Top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 750px;
+    height: 50px;
+}
+#Left_Center{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 1535px;
+}
+#Center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    height: 431px;
+    
+}
+#Left_Top_Center{
+   display: block;
+   position: relative;
+   right: 500px;
+   
+}
+
+#Left_Bottom_Center{
+    display: block;
+    position: relative;
+    right: 220px;
+    
+}
+.GR1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.GR2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item_left{
+   display: block;
+   position: relative;
+   right: 120px;
+
+}
+.item_right{
+    display: block;
+    position: relative;
+    right:300px;
+}
+.GR3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    
+}
+#item_container3_top{
+    display: block;
+    position: relative;
+    left: 140px;
+}
+#Group_1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 190px;
+    position: relative;
+    left: 140px;
+}
+#Group_11{
+    display: block;
+    position: relative;
+    left: 150px;
+}
+
+#Group_1_1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 160px;
+    position: relative;
+    left: 140px;
+}
+#Hinh2_4{
+    display: block;
+    position: relative;
+    top: 23px;
+
+}
+#item_Hinh{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,48 @@
+#Body{
+    background-color: black;
+}
+
+
+#Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: absolute;
+    left: 368.5px;
+    top: 122px;
+    flex-direction: column;
+
+}
+
+#Time{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    width: 600px;
+    height: 200px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+}
+
+.Hour{
+    font-size: 155px;
+
+}
+
+.Min{
+    font-size: 155px;
+
+}
+
+.Sec{
+    font-size: 155px;
+
+}
