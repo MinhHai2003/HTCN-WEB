@@ -1,0 +1,294 @@
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+}
+#Left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+#Right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+}
+#Banner{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 1446px;
+    position: relative;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#text {
+    color: black;
+    position: absolute;
+    right: 300px;
+    top: 100px;
+    left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+#container-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width:  1446px ;
+    height: 163px;
+
+}
+
+#Left1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    color:green;
+}
+
+
+#Right1{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    justify-content: space-around;
+    width: 32%;
+    
+}
+
+#container-2{
+    display: flex;
+    justify-content: space-around;     
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: flex-start;
+    height: 539px;
+   
+}
+
+#container-3{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 539px
+}
+
+#container-4{
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 539px;
+}
+#container-5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1530px;
+    height: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.pagination {
+display: inline-block;
+}
+
+.pagination a {
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+transition: background-color .3s;
+}
+
+.pagination a.active {
+background-color: #4CAF50;
+color: white;
+border-radius: 50px;
+}
+
+.pagination a:hover:not(.active) {
+background-color: #ddd;
+border-radius: 50px;
+}
+
+#container-6{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #1D2128;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1446x;
+    height: 436px;
+    padding-top: 10%;
+    
+}
+
+#center{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#h1{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+#h2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#h3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+    font-size: 15px;
+    width: 50px;
+    
+}
+.Product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px 4px 4px 4px;
+    width: 200px;
+    height: 50px;
+    background-color: #459D7A;
+    color: white;
+}
+.Sort{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px 4px 4px 4px;
+    width: 100px;
+    height: 50px;
+    background-color: #F3F4F6;
+    color: darkgray;
+    
+    
+}
+.Input_Button{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+
+}
+.Input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 303px;
+    height: 52px;
+    border-style: solid;
+    border-radius: 8px 0 0 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #459D7A;
+    width: 130px;
+    height: 55px;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+.Search{
+    width: 200px;
+    height: 30px;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-color: darkgray;
+}
+.English{
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 130px;
+    height: 30px;
+    background-color: #1D2128FF;
+}
+.Product_shadow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:none 10px #888888;
+    width: 150px;
+    height: 50px;
+    
+}
+#Best-seller{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #8C5D11;
+    left: 180px;
+    top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 13px;
+    width: 80px;
+    height: 30px;
+    background-color: #FFC970;
+    border-radius: 20px 20px 20px 20px;
+}
+
+#New{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #8C5D11;
+    left: 210px;
+    top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: 13px;
+    width: 50px;
+    height: 30px;
+    background-color: #FFC970;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.btn1{
+    width: 126px;
+    height: 52px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 30px;
+   
+}
